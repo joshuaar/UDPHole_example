@@ -18,9 +18,6 @@ while(1):
     if recv_data == "Request 1" :
         print "Received request 1"
         server_socket.sendto("Response 1", addr)
-    elif recv_data == "Request 2" :
-        print "Received request 2"
-        data = "Response 2"
-        server_socket.sendto(data, addr)
+
         
         
