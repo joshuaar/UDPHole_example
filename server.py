@@ -3,7 +3,7 @@ import sys
 import select
 address = ('', 6004)
 
-clientAddr = ('68.230.65.250',6004) # Get this from STUN server
+clientAddr = ('serverHostNameorIP',6004) # Get this from STUN server
 
 server_socket = socket(AF_INET, SOCK_DGRAM)
 server_socket.bind(address)
