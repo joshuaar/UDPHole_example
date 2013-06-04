@@ -4,7 +4,7 @@ import select
 
 address = ('', 6004)
 
-serverAddr = ('smaugshideout.com',6004)
+serverAddr = ('clientHostNameorIP',6004)
 
 client_socket = socket(AF_INET, SOCK_DGRAM)
 client_socket.bind(address)
